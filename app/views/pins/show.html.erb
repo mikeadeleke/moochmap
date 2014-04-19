@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ip:</strong>
+  <%= @pin.ip %>
+</p>
+
+<p>
+  <strong>When:</strong>
+  <%= @pin.when %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @pin.user %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @pin.description %>
+</p>
+
+<%= link_to 'Edit', edit_pin_path(@pin) %> |
+<%= link_to 'Back', pins_path %>
